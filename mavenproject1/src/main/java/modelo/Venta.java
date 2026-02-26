@@ -14,7 +14,7 @@ import java.util.List;
  * @author emiim
  */
 public class Venta implements IEmisorCambios {
-  private String folio;
+    private String folio;
     private List<DetalleVenta> detalles = new ArrayList<>();
     private List<IObserver> observadores = new ArrayList<>();
 

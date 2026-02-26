@@ -8,7 +8,6 @@ import control.ControlVenta;
 import interfaces.IObserver;
 import java.awt.Dimension;
 import javax.swing.BoxLayout;
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -35,6 +34,7 @@ public class PantallaSeleccion extends javax.swing.JFrame implements IObserver {
         this.ventaActual.agregarObservador(this);
         
         pnlListaProductos.setLayout(new BoxLayout(pnlListaProductos, BoxLayout.Y_AXIS));
+        this.setLocationRelativeTo(null);
     }
 
     public PantallaSeleccion() {
